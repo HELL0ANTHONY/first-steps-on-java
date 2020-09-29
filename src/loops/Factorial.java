@@ -10,6 +10,7 @@ public class Factorial {
         var number = scan.nextInt();
 
         System.out.println("Factorial = " + factorial(number));
+        scan.close();
     }
 
     public static int factorial(int number) {

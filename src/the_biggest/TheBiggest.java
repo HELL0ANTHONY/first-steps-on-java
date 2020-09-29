@@ -12,6 +12,7 @@ public class TheBiggest {
         int num_2 = scan.nextInt();
 
         whoIsTheBiggest(num_1, num_2);
+        scan.close();
     }
 
     public static void whoIsTheBiggest(int number_1, int number_2) {

@@ -13,5 +13,6 @@ public class Volume_and_Area {
         double area   = 4 * Math.PI * Math.pow(radio, 2);
 
         System.out.printf("Volume = %1$.2f %nArea = %2$.2f", volume, area);
+        scan.close();
     }
 }
