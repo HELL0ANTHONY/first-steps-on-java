@@ -3,6 +3,11 @@ package loops;
 import java.util.Scanner;
 
 public class Factorial {
+
+    /*
+        Factorial recursivo;
+     */
+
     public static void main(String[] args) {
         var scan = new Scanner(System.in);
 

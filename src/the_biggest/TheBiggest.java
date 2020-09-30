@@ -1,18 +1,19 @@
 package the_biggest;
 
-import java.util.Scanner;
-
 public class TheBiggest {
-    public static void main(String[] args) {
-        var scan = new Scanner(System.in);
 
-        System.out.print("Introduce the first number: ");
-        int num_1 = scan.nextInt();
-        System.out.print("Introduce the second number: ");
-        int num_2 = scan.nextInt();
+   /*
+        Definir dos variables num_1 y num_2 e implementar un
+        programa un programa que asigne un valor a cada una, y
+        obtenga el mayor de los dos, mostrando el resultado en
+        pantalla;
+    */
+
+    public static void main(String[] args) {
+        int num_1 = Integer.parseInt(args[0]);
+        int num_2 = Integer.parseInt(args[1]);
 
         whoIsTheBiggest(num_1, num_2);
-        scan.close();
     }
 
     public static void whoIsTheBiggest(int number_1, int number_2) {
