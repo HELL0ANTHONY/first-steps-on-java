@@ -21,3 +21,5 @@ R
 "src/loops/FahrenheitToCelsius.java,4\d\4dd09d6ce3b38444e2704d2bdf3556c068fcc9a1
 h
 8src/variable_and_operators/exercise_two/ExerciseTwo.java,4\4\445f73e3ec5f27553acfaa2f3b349818bbbdc2f0
+M
+src/loops/ANSICharacters.java,1\5\15b53c3df26c3a8282761526f23776011d8485ed
