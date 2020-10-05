@@ -23,3 +23,7 @@ h
 8src/variable_and_operators/exercise_two/ExerciseTwo.java,4\4\445f73e3ec5f27553acfaa2f3b349818bbbdc2f0
 M
 src/loops/ANSICharacters.java,1\5\15b53c3df26c3a8282761526f23776011d8485ed
+S
+#src/loops/DiaryWithARegularFor.java,9\5\95b20de553f2d726cbac96f456538d62b2703aee
+H
+src/loops/Fibonacci.java,4\b\4bd8f30383b06aa6a543d6d97384d3c0532d993e
