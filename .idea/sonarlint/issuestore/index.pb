@@ -31,3 +31,5 @@ D
 src/loops/MyPow.java,0\8\0859513ef93df31491b8f4eeb49372421f933094
 J
 src/loops/MagicNumber.java,c\9\c9eb4fc252a133fdc174e22b0a8b77eb707e932a
+I
+src/arrays/MaxAndMin.java,b\2\b2e2dc9710ac7d0b17d48a3556de954b9d9bdd86
