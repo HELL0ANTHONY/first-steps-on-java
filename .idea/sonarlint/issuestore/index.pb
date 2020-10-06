@@ -27,3 +27,7 @@ S
 #src/loops/DiaryWithARegularFor.java,9\5\95b20de553f2d726cbac96f456538d62b2703aee
 H
 src/loops/Fibonacci.java,4\b\4bd8f30383b06aa6a543d6d97384d3c0532d993e
+D
+src/loops/MyPow.java,0\8\0859513ef93df31491b8f4eeb49372421f933094
+J
+src/loops/MagicNumber.java,c\9\c9eb4fc252a133fdc174e22b0a8b77eb707e932a
