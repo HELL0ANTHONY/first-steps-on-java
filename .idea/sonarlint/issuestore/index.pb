@@ -33,3 +33,5 @@ J
 src/loops/MagicNumber.java,c\9\c9eb4fc252a133fdc174e22b0a8b77eb707e932a
 I
 src/arrays/MaxAndMin.java,b\2\b2e2dc9710ac7d0b17d48a3556de954b9d9bdd86
+G
+src/arrays/Capicua.java,e\2\e221ed6cf930feba70a808ee525c74d0b80189f7
