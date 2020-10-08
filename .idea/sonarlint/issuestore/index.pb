@@ -35,3 +35,7 @@ I
 src/arrays/MaxAndMin.java,b\2\b2e2dc9710ac7d0b17d48a3556de954b9d9bdd86
 G
 src/arrays/Capicua.java,e\2\e221ed6cf930feba70a808ee525c74d0b80189f7
+Q
+!src/arrays/ConcatenateArrays.java,4\4\4448f64057784cb503695da81abd1838d1bf2056
+H
+src/arrays/ArraySum.java,1\1\11e06f80efc28aad3ba60db9323db61120c18ba8
