@@ -37,11 +37,11 @@ public class ArraySum {
             arr2[i] = scan.nextInt();
         }
 
-        System.out.println("The result " + Arrays.toString(sum(arr1, arr2)));
+        System.out.println("The result " + Arrays.toString(sumArrays(arr1, arr2)));
         scan.close();
     }
 
-    public static int[] sum(int[] a, int[] b) {
+    public static int[] sumArrays(int[] a, int[] b) {
         int   max = Math.max(a.length, b.length);
         int[] c   = new int[max];
         for (int i = 0; i < max; i++) {
