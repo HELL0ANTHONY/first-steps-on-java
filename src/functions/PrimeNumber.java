@@ -9,18 +9,20 @@ public class PrimeNumber {
     public static void main(String[] args) {
         int a = 12;
         int b = 3;
-        int c = 1;
+        int c = 6;
+        int d = 8;
 
         printAnswer(isPrime(a));
         printAnswer(isPrime(b));
         printAnswer(isPrime(c));
+        printAnswer(isPrime(d));
     }
 
     public static boolean isPrime(int n) {
         if (n == 2) return true;
-        if (n == 1) return false;
-        for (int i = 3; i <= (int) Math.sqrt(n); i += 2) {
-            if(n % i == 0) {
+        if (n == 1 || n % 2 == 0) return false;
+        for (int i = 3; i <= (int) Math.sqrt(n); i++, i++) {
+            if (n % i == 0) {
                 return false;
             }
         }

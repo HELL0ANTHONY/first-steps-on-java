@@ -39,3 +39,7 @@ Q
 !src/arrays/ConcatenateArrays.java,4\4\4448f64057784cb503695da81abd1838d1bf2056
 H
 src/arrays/ArraySum.java,1\1\11e06f80efc28aad3ba60db9323db61120c18ba8
+M
+src/functions/TheBiggest.java,3\c\3ccab354c8f65d0ff3c39559389edd0f5a56e138
+N
+src/functions/PrimeNumber.java,5\2\520dd6d2ee27a577ce7f5251e06e6d4597a318bf
