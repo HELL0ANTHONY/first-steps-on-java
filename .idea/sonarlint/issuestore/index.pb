@@ -43,3 +43,7 @@ M
 src/functions/TheBiggest.java,3\c\3ccab354c8f65d0ff3c39559389edd0f5a56e138
 N
 src/functions/PrimeNumber.java,5\2\520dd6d2ee27a577ce7f5251e06e6d4597a318bf
+O
+src/functions/ShowDividers.java,e\f\ef6a74bb3aef19e894534b9e602051f2eae7f23a
+H
+src/loops/Something.java,9\d\9dc77b8bf3a91d4763906181b7e7dfffd89a40df
