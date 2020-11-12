@@ -38,16 +38,16 @@ public class ConcatenateArrays {
     }
 
     public static int[] concatenate(int[] arr1, int[] arr2) {
-        var result   = new int[arr1.length * 2];
+        var concatenated   = new int[arr1.length * 2];
         var position = 0;
         for (int element : arr1) {
-            result[position] = element;
+            concatenated[position] = element;
             position++;
         }
         for (int element : arr2) {
-            result[position] = element;
+            concatenated[position] = element;
             position++;
         }
-        return result;
+        return concatenated;
     }
 }

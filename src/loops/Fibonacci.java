@@ -12,16 +12,16 @@ public class Fibonacci {
     */
 
     public static void main(String[] args) {
-        int f0 = 0;
-        int f1 = 1;
+        int zero = 0;
+        int one = 1;
         int fibonacci;
         int i  = 0;
 
         while (true) {
             if (i == 51) break;
-            System.out.println(fibonacci = f0 + f1);
-            f0 = f1;
-            f1 = fibonacci;
+            System.out.println(fibonacci = zero + one);
+            zero = one;
+            one = fibonacci;
             i++;
         }
     }
