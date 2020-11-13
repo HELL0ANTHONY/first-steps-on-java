@@ -19,7 +19,7 @@ public class Fibonacci {
 
         while (true) {
             if (i == 51) break;
-            System.out.println(fibonacci = zero + one);
+            System.out.println((fibonacci = zero + one));
             zero = one;
             one = fibonacci;
             i++;

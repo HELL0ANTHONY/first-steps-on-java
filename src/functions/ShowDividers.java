@@ -9,6 +9,10 @@ public class ShowDividers {
         nueva función o utilizar la anterior que indique si un número es primo o no.
      */
 
+    /**
+     *
+     * TODO: mal-intreprete el problema resolver después.
+     */
     public static void main(String[] args) {
         for (int i = 0; i <= 101; i++)
              answer(i);
@@ -24,11 +28,9 @@ public class ShowDividers {
     public static boolean isPrime(int n) {
         if (n == 2) return true;
         if (n < 2 || (n % 2 == 0)) return false;
-        for (int i = 3; i <= (int) Math.sqrt(n); i += 2) {
-            if (n % i == 0) {
+        for (int i = 3; i <= (int) Math.sqrt(n); i += 2)
+            if (n % i == 0)
                 return false;
-            }
-        }
         return true;
     }
 
