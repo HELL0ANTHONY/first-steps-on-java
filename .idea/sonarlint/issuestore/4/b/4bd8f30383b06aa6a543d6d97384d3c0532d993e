@@ -1,4 +1,4 @@
 
-N
-java:S1121".Extract the assignment out of this expression.(úûÀÔøÿÿÿÿ8œİ …Ï.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(úûÀÔøÿÿÿÿ8õ… …Ï.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Å“Òüıÿÿÿÿ8õ… …Ï.
+P
+java:S1121".Extract the assignment out of this expression.(Å“Òüıÿÿÿÿ8œİ …Ï.

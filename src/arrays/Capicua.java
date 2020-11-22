@@ -10,35 +10,35 @@ public class Capicua {
          atrás y de detrás hacia delante.
      */
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
 
-        System.out.print("How many number do you want to store: ");
-        var arrayLength = scan.nextInt();
+    System.out.print("How many number do you want to store: ");
+    var arrayLength = scan.nextInt();
 
-        var arr = new int[arrayLength];
-        for (int i = 0; i < arrayLength; i++) {
-            System.out.print("Please enter the number: ");
-            arr[i] = scan.nextInt();
-        }
-        scan.close();
-
-        if(isCapicua(arr, reverse(arr)))
-            System.out.println("Is capicua");
-        else
-            System.out.println("Is not capicua");
+    var arr = new int[arrayLength];
+    for (int i = 0; i < arrayLength; i++) {
+      System.out.print("Please enter the number: ");
+      arr[i] = scan.nextInt();
     }
+    scan.close();
 
-    public static int[] reverse(int[] arr) {
-        var aux = new int[arr.length];
-        for(int i = (arr.length - 1), j = 0; i >= 0; i--, j++)
-            aux[j] = arr[i];
-        return aux;
-    }
+    if (isCapicua(arr, reverse(arr)))
+      System.out.println("Is capicua");
+    else
+      System.out.println("Is not capicua");
+  }
 
-    public static boolean isCapicua(int[] arr, int[] reverse) {
-        for(int i = 0; i < arr.length; i++)
-           if (arr[i] != reverse[i]) return false;
-        return true;
-    }
+  public static int[] reverse(int[] arr) {
+    var aux = new int[arr.length];
+    for (int i = (arr.length - 1), j = 0; i >= 0; i--, j++)
+         aux[j] = arr[i];
+    return aux;
+  }
+
+  public static boolean isCapicua(int[] arr, int[] reverse) {
+    for (int i = 0; i < arr.length; i++)
+      if (arr[i] != reverse[i]) return false;
+    return true;
+  }
 }

@@ -8,13 +8,13 @@ public class FactorialTwo {
         de comando;
     */
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        int userNumber = Integer.parseInt(args[0]);
-        int factorial = 1;
+    int userNumber = Integer.parseInt(args[0]);
+    int factorial  = 1;
 
-        for (int i = 1; i <= userNumber; i++)
-           factorial = factorial * i;
-        System.out.println(factorial);
-    }
+    for (int i = 1; i <= userNumber; i++)
+         factorial = factorial * i;
+    System.out.println(factorial);
+  }
 }

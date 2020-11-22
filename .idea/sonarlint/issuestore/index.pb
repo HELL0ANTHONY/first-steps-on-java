@@ -45,3 +45,7 @@ N
 src/functions/PrimeNumber.java,5\2\520dd6d2ee27a577ce7f5251e06e6d4597a318bf
 O
 src/functions/ShowDividers.java,e\f\ef6a74bb3aef19e894534b9e602051f2eae7f23a
+C
+src/clases/Nif.java,d\e\de66026556fa89469a3f5c8c79cf882b758fd541
+L
+src/functions/QuickSort.java,f\9\f9366fee6f9751d3abf41570dc6dfb167cd9e96c
