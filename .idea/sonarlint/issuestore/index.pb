@@ -49,3 +49,11 @@ C
 src/clases/Nif.java,d\e\de66026556fa89469a3f5c8c79cf882b758fd541
 L
 src/functions/QuickSort.java,f\9\f9366fee6f9751d3abf41570dc6dfb167cd9e96c
+[
++src/functions/OrdenamientoPorInsercion.java,3\7\37f5340cfbe27aee62ca8c142513886716f1df8a
+D
+src/arrays/Main.java,e\2\e25cbd5a1e339e67dde4171dc60ed5deecef96d6
+K
+src/arrays/Recursivity.java,c\4\c468cf5fb5416192ceddfdcbf25171052ae45682
+G
+src/functions/Main.java,d\d\ddcb3657b7324692aee8ea120d18a047aec2b630
