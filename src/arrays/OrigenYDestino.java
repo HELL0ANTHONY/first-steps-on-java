@@ -8,11 +8,11 @@ public class OrigenYDestino {
       introducidos.
    */
   public static void main(String[] args) {
-    int[]     origin  = new int[100];
-    final int MIN     = 0;
-    final int MAX     = 100;
-    final int INDEX   = origin.length - 1;
-    int[]     destiny = new int[INDEX];
+    int[]     origin = new int[100];
+    final int MIN    = 0;
+    final int MAX    = 100;
+    final int INDEX  = origin.length - 1;
+    int[]     destiny;
     origin  = aleatoryNumbers(MIN, MAX, INDEX);
     destiny = copy(origin, INDEX);
 
@@ -25,35 +25,36 @@ public class OrigenYDestino {
       if (destiny[i] > 0)
         System.out.print(" " + destiny[i]);
   }
-    public static int[] copy ( int[] arr, int index){
-      int   count   = 0;
-      int[] numbers = new int[index];
 
-      for (int i = 0; i < index; i++)
-        if (arr[i] > 25 && arr[i] % 2 == 0)
-          numbers[count++] = arr[i];
+  public static int[] copy(int[] arr, int index) {
+    int   count   = 0;
+    int[] numbers = new int[index];
 
-      return numbers;
-    }
+    for (int i = 0; i < index; i++)
+      if (arr[i] > 25 && arr[i] % 2 == 0)
+        numbers[count++] = arr[i];
 
-    public static int aleatory ( int min, int max){
-      return (int) Math.floor(Math.random() * (max - min + 1) + min);
-    }
-
-    public static int[] aleatoryNumbers ( int min, int max, int index){
-      int[]   numbers = new int[index];
-      int     j       = 0;
-      int     aleatory;
-      boolean exists;
-      while (j < index) {
-        aleatory = aleatory(min, max);
-        exists   = false;
-        for (int i = 0; i < index && !exists; i++)
-          if (aleatory == numbers[i])
-            exists = true;
-        if (!exists) numbers[j++] = aleatory;
-      }
-      return numbers;
-    }
-
+    return numbers;
   }
+
+  public static int aleatory(int min, int max) {
+    return (int) Math.floor(Math.random() * (max - min + 1) + min);
+  }
+
+  public static int[] aleatoryNumbers(int min, int max, int index) {
+    int[]   numbers = new int[index];
+    int     j       = 0;
+    int     aleatory;
+    boolean exists;
+    while (j < index) {
+      aleatory = aleatory(min, max);
+      exists   = false;
+      for (int i = 0; i < index && !exists; i++)
+        if (aleatory == numbers[i])
+          exists = true;
+      if (!exists) numbers[j++] = aleatory;
+    }
+    return numbers;
+  }
+
+}

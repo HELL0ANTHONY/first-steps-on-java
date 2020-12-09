@@ -1,25 +1,0 @@
-
-I
-java:S1481"-Remove this unused "ALPHABET" local variable.(ØŸ¢8ğâ¬à.
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ğâ¬à.
-Z	java:S106h"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8‡î‡±à.
-K
-java:S1481")Remove this unused "clue" local variable.(›ïºùÿÿÿÿ8„ã”°à.
-m	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†÷ÿ³8ó™Å­à.
-X
-java:S1854"<Remove this useless assignment to local variable "ALPHABET".(ØŸ¢8ğâ¬à.
-J	java:S108)")Either remove or fill this block of code.(Û’õ’úÿÿÿÿ8‡î‡±à.
-m	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡ÒØ8Ñò…¬à.
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(øºÑûúÿÿÿÿ8¢²–¬à.
-Œ
-java:S4165-"jRemove this useless assignment; "errorsNumber" already holds the assigned value along all execution paths.(Ä¼›Çûÿÿÿÿ8‡î‡±à.
->
-java:S1643a"Use a StringBuilder instead.(¢•Úöúÿÿÿÿ8‡î‡±à.
-Z	java:S106g"9Replace this use of System.out or System.err by a logger.(‹ ‘ùúÿÿÿÿ8‡î‡±à.
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØŸ¢8÷ÕØ¬à.
-U
-java:S1854!"8Remove this useless assignment to local variable "clue".(È¬Ø‡8‡î‡±à.
-Z	java:S106T"9Replace this use of System.out or System.err by a logger.(Û¬çŞøÿÿÿÿ8‘Êÿ®à.
-U	java:S106["9Replace this use of System.out or System.err by a logger.(ªôÏ8‡î‡±à.
